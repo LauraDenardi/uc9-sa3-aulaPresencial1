@@ -1,0 +1,11 @@
+<mat-card> 
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div>
+            <label id="nome">Nome:</label>
+            <input ngModel type="text" id="nome" name="nome">
+        </div>
+        <div>
+          <button type="submit">Salvar</button>
+      </div>
+      </form>
+</mat-card>

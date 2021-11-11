@@ -1,0 +1,40 @@
+#logoheader{
+    height: 50px;
+}
+
+#divnav{
+    flex: auto 1;
+}
+
+#navheader{
+    float: right;
+}
+
+#navheader ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+#navheader ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-mobile{
+    float: right;
+    color: white;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 768px){
+    #navheader{
+        display: block;
+    }
+
+    #menu-mobile{
+        display: none;
+    }
+}
